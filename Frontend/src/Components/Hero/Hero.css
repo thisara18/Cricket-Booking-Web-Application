@@ -1,0 +1,50 @@
+.hero {
+    width: 100%;
+    min-height: 100vh; /* Full height of the viewport */
+    background: url('../../assets/cri.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center; /* Center text */
+    color: #e7e7e7;
+}
+
+.hero-content {
+    text-align: center; /* Center text for forms */
+    max-width: 400px; /* Limit form width */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.hero-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+
+}
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
